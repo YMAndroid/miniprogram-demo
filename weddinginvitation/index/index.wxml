@@ -1,0 +1,22 @@
+<!--weddinginvitation/index/index.wxml-->
+<view class="player player-{{isPlayingMusic ? 'play' : 'pause'}}" bindtap="play">
+    <image src="/image/01.png"></image>
+    <image src="/image/04.png"></image>
+</view>
+
+<image class="bg" src="/image/guidepage1.png"/>
+<view class="content">
+    <image class="content-gif" src="/image/VCG211151545401.gif"></image>
+    <view class="content-title">邀请函</view>
+    <view class="content-avatar">
+        <image src="/image/04.png"></image>
+    </view>
+    <view class="content-info">
+    </view>
+
+    <view class="content-address">
+        <view>我们邀请您来参加我们的婚礼</view>
+        <view>时间: 2021年10月30日</view>
+        <view>地点：武汉某地*********</view>
+    </view>
+</view>

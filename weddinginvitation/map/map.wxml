@@ -1,0 +1,5 @@
+<!--weddinginvitation/map/map.wxml-->
+<map latitude="{{latitude}}" longitude="{{longitude}}" scale="18"
+markers="{{markers}}" bindmarkertap="markertap"></map>
+
+

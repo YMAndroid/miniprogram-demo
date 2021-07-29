@@ -1,0 +1,5 @@
+<!--test/test.wxml-->
+<view class='textarea-count'>
+    <textarea placeholder='请输入文字' bindinput="getWords" value="{{inputValue}}"></textarea>
+    <view class='text-count-display f f-end'>{{textLen}}/{{maxTextLen}}</view>
+</view>

@@ -1,0 +1,2 @@
+<!--weddinginvitation/guest/guest.wxml-->
+<canvas canvas-id="myCanvas" class="mycanvas"></canvas>

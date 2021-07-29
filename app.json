@@ -1,0 +1,62 @@
+{
+  "pages":[
+    "test/test",
+    "index/index/test/test",
+    "weddinginvitation/index/index",
+    "weddinginvitation/picture/picture",
+    "weddinginvitation/video/video",
+    "weddinginvitation/map/map",
+    "weddinginvitation/guest/guest",
+    "music/music",
+    "calu/calu",
+    "index/index"
+
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Weixin",
+    "navigationBarTextStyle":"black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "color": "#ccc",
+    "selectedColor": "#ff4c91",
+    "borderStyle": "white",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "weddinginvitation/index/index",
+        "iconPath": "image/02.png",
+        "selectedIconPath": "image/04.png",
+        "text":"邀请函"
+      },
+      {
+        "pagePath": "weddinginvitation/picture/picture",
+        "iconPath": "image/02.png",
+        "selectedIconPath": "image/04.png",
+        "text":"照片"
+      },
+      {
+        "pagePath": "weddinginvitation/video/video",
+        "iconPath": "image/02.png",
+        "selectedIconPath": "image/04.png",
+        "text":"美好时光"
+      },
+      {
+        "pagePath": "weddinginvitation/map/map",
+        "iconPath": "image/02.png",
+        "selectedIconPath": "image/04.png",
+        "text":"婚礼地点"
+      },
+      {
+        "pagePath": "weddinginvitation/guest/guest",
+        "iconPath": "image/02.png",
+        "selectedIconPath": "image/04.png",
+        "text":"宾客信息"
+      }
+    ]
+  },
+  "requiredBackgroundModes": ["audio"]
+}

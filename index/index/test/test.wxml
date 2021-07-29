@@ -1,0 +1,36 @@
+<view class="tim">
+    <view class="time-select" style="font-size: 10px;">{{time}}</view>
+    <view class="tim_shaft_bfx" ></view>
+    <scroll-view class="tim_shaft" scroll-x="true" scroll-with-animation="true" scroll-left='0' bindscroll="getleft"
+        bindtouchend="bindtouchend">
+        <view class="tim_shaft_box" bindtap="shaftBox">
+            <!-- 录像视频时间轴上的显示区域 -->
+            <view class="videos" wx:for="{{video_list}}" wx:key=""
+                style=" left:{{item.left}}px; width:{{item.withx}}px;"></view>
+            <view class="tim_shaft_kd tim_shaft_one">
+                <view class="shu">21</view>
+                <view class="tim_shaft_kd_1" wx:key='' wx:for="{{5}}"></view>
+            </view>
+            <view class="tim_shaft_kd">
+                <view class="shu">22</view>
+                <view class="tim_shaft_kd_1" wx:key='' wx:for="{{5}}"></view>
+            </view>
+            <view class="tim_shaft_kd">
+                <view class="shu">23</view>
+                <view class="tim_shaft_kd_1" wx:key='' wx:for="{{5}}"></view>
+            </view>
+
+            <view class="tim_shaft_kd" wx:key='' wx:for="{{lst}}">
+                <view class="shu">{{item.tim}}</view>
+                <view class="tim_shaft_kd_1" wx:key='' wx:for="{{5}}"></view>
+            </view>
+            <view class="tim_shaft_kd">
+                <view class="shu">1</view>
+                <view class="tim_shaft_kd_1" wx:key='' wx:for="{{5}}"></view>
+            </view>
+            <view class="tim_shaft_kd">
+                <view class="shu">2</view>
+            </view>
+        </view>
+    </scroll-view>
+</view>
